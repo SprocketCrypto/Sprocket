@@ -1,0 +1,26 @@
+# /etc/conf.d/sprocketd: config file for /etc/init.d/sprocketd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sprocket/sprocket.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sprocketd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sprocketd.pid"
+
+# Where to write sprocketd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sprocketd"
+
+# User and group to own sprocketd process
+#BITCOIND_USER="sprocket"
+#BITCOIND_GROUP="sprocket"
+
+# Path to sprocketd executable
+#BITCOIND_BIN="/usr/bin/sprocketd"
+
+# Nice value to run sprocketd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

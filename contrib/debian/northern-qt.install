@@ -1,0 +1,6 @@
+usr/local/bin/sprocket-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/sprocket-qt.desktop usr/share/applications
+debian/sprocket-qt.protocol usr/share/kde4/services/

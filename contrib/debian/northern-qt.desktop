@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sprocket
+Comment=Sprocket P2P Cryptocurrency
+Comment[fr]=Sprocket, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sprocket, eşten eşe kriptografik sanal para birimi
+Exec=sprocket-qt %u
+Terminal=false
+Type=Application
+Icon=sprocket128
+MimeType=x-scheme-handler/sprocket;
+Categories=Office;Finance;
