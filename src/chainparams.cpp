@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x00000e68c6ddd656c615022da9cda3dc1e548288f683a7d496aacc9a77c55b17"));
+        (0, uint256(""));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -94,7 +94,7 @@ public:
 	pchMessageStart[2] = 0xd2;
 	pchMessageStart[3] = 0x04;
 
-	vAlertPubKey = ParseHex("");
+	vAlertPubKey = ParseHex("04657d53a6ab79c364955f04c4e8ea299a4ce972d7ce5ef20c782b570105c77ed64c483dc20af25eddfa3f85b95d00f33a6e35dc3ea7655310a3dc2a0c46e6135a");
 	nDefaultPort = 60151;
 	bnProofOfWorkLimit = ~uint256(0) >> 20; // Sprocket starting difficulty is 1 / 2^12
 	nMaxReorganizationDepth = 100;
@@ -127,8 +127,8 @@ public:
 	genesis.nNonce = 756830;
 
 	hashGenesisBlock = genesis.GetHash();
-	assert(hashGenesisBlock == uint256("0x00000e68c6ddd656c615022da9cda3dc1e548288f683a7d496aacc9a77c55b17"));
-	assert(genesis.hashMerkleRoot == uint256("0xcd2552728eb8937b197aed49471d95cdb9b1a74e97e204cfdb1bd8c103461cf7"));
+	assert(hashGenesisBlock == uint256(""));
+	assert(genesis.hashMerkleRoot == uint256(""));
 
 	vSeeds.push_back(CDNSSeedData("thesnoot.space", "sprocket.thesnoot.space"));
 	vSeeds.push_back(CDNSSeedData("sprkc.network", "sprocket.sprkc.network"));
