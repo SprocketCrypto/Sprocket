@@ -94,7 +94,7 @@ public:
 	pchMessageStart[2] = 0xd2;
 	pchMessageStart[3] = 0x04;
 
-	vAlertPubKey = ParseHex("04657d53a6ab79c364955f04c4e8ea299a4ce972d7ce5ef20c782b570105c77ed64c483dc20af25eddfa3f85b95d00f33a6e35dc3ea7655310a3dc2a0c46e6135a");
+	vAlertPubKey = ParseHex("");
 	nDefaultPort = 60151;
 	bnProofOfWorkLimit = ~uint256(0) >> 20; // Sprocket starting difficulty is 1 / 2^12
 	nMaxReorganizationDepth = 100;
